@@ -1,10 +1,10 @@
 {
-    "name": "personal-website-react",
+    "name": "profile",
     "version": "0.2.0",
     "homepage": "https://bishalpokhrel.com.np",
     "description": "This is a clean customizable portfolio template for developers.",
-    "repository": "https://github.com/JoHoop/personal-website-react",
-    "author": "Jo Lienhoop <contact@bishalpokhrel.com.np>",
+    "repository": "https://github.com/droidcrafts/profile",
+    "author": "Bishal Pokhrel <contact@bishalpokhrel.com.np>",
     "license": "MIT",
     "dependencies": {
         "@material-ui/core": "^4.11.0",
