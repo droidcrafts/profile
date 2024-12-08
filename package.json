@@ -29,7 +29,7 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build && react-snapshot",
+        "build": "next build && npx @cloudflare/next-on-pages",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
