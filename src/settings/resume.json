@@ -33,16 +33,16 @@
                 "x_icon": "fab fa-facebook"
             },
             {
-                "network": "TikTok",
-                "username": "pokhrelbishal.bp",
-                "url": "https://www.tiktok.com/pokhrelbishal.bp",
-                "x_icon": "fab fa-tiktok"
-            },
-            {
                 "network": "GitLab",
                 "username": "pokhrelbishal.bp",
                 "url": "#",
                 "x_icon": "fab fa-gitlab"
+            },
+            {
+                "network": "TikTok",
+                "username": "pokhrelbishal.bp",
+                "url": "https://www.tiktok.com/pokhrelbishal.bp",
+                "x_icon": "fab fa-tiktok"
             }
         ]
     },
