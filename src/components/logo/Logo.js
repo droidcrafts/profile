@@ -15,12 +15,10 @@ export const Logo = () => {
     const classes = useStyles();
 
     return (
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xmlSpace="preserve">
-  <defs>
-  </defs>
-  <rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
-  <g transform="matrix(1 0 0 1 540 540)" id="685b5e02-9374-4bbb-9afb-c21c7d78927f">
-  </g>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xmlSpace="preserve">
+  <defs></defs>
+  <rect x="0" y="0" width="100%" height="100%" fill="transparent" />
+  <g transform="matrix(1 0 0 1 540 540)" id="685b5e02-9374-4bbb-9afb-c21c7d78927f"></g>
   <g transform="matrix(1 0 0 1 540 540)" id="60aa28cd-1699-4a95-b428-5446e7fcde33">
     <rect
       style={{
@@ -34,7 +32,7 @@ export const Logo = () => {
         fill: 'rgb(255,255,255)',
         fillRule: 'nonzero',
         opacity: 1,
-        visibility: 'hidden'
+        visibility: 'hidden',
       }}
       vectorEffect="non-scaling-stroke"
       x="-540"
@@ -46,8 +44,7 @@ export const Logo = () => {
     />
   </g>
   <g transform="matrix(0 0 0 0 0 0)">
-    <g style="">
-    </g>
+    <g style=""></g>
   </g>
   <g transform="matrix(11.84 0 0 11.84 540 540)">
     <path
@@ -61,7 +58,7 @@ export const Logo = () => {
         strokeMiterlimit: 4,
         fill: 'rgb(0,191,191)',
         fillRule: 'nonzero',
-        opacity: 1
+        opacity: 1,
       }}
       vectorEffect="non-scaling-stroke"
       transform="translate(-50, -50)"
@@ -70,20 +67,16 @@ export const Logo = () => {
     />
   </g>
   <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style="">
-    </g>
+    <g style=""></g>
   </g>
   <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style="">
-    </g>
+    <g style=""></g>
   </g>
   <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style="">
-    </g>
+    <g style=""></g>
   </g>
   <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style="">
-    </g>
+    <g style=""></g>
   </g>
   <g transform="matrix(8.39 0 0 8.39 571.89 587.19)" style="" id="047e58c2-a7c2-498c-a005-4fc0555c84c7">
     <text
@@ -103,15 +96,14 @@ export const Logo = () => {
         fill: 'rgb(0,191,191)',
         fillRule: 'nonzero',
         opacity: 1,
-        whiteSpace: 'pre'
+        whiteSpace: 'pre',
       }}
     >
       <tspan x="-39.02" y="36.75">B</tspan>
     </text>
   </g>
   <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style="">
-    </g>
+    <g style=""></g>
   </g>
 </svg>
     );
