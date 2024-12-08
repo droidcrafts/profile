@@ -66,18 +66,6 @@ export const Logo = () => {
       strokeLinecap="round"
     />
   </g>
-  <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style=""></g>
-  </g>
-  <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style=""></g>
-  </g>
-  <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style=""></g>
-  </g>
-  <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style=""></g>
-  </g>
   <g transform="matrix(8.39 0 0 8.39 571.89 587.19)" style="" id="047e58c2-a7c2-498c-a005-4fc0555c84c7">
     <text
       xmlSpace="preserve"
@@ -101,9 +89,6 @@ export const Logo = () => {
     >
       <tspan x="-39.02" y="36.75">B</tspan>
     </text>
-  </g>
-  <g transform="matrix(NaN NaN NaN NaN 0 0)">
-    <g style=""></g>
   </g>
 </svg>
     );
