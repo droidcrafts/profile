@@ -1,4 +1,4 @@
-export default `
+const sphereFragmentShader = `
 #define PHONG
 
 uniform vec3 diffuse;
@@ -70,3 +70,5 @@ void main() {
   gl_FragColor = vec4(outgoingLight, diffuseColor.a);
 }
 `;
+
+export default sphereFragmentShader;

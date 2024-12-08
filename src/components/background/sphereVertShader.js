@@ -12,7 +12,7 @@
 // https://github.com/ashima/webgl-noise
 //
 
-export default `
+const sphereVertShader = `
 vec3 mod289(vec3 x)
 {
   return x - floor(x * (1.0 / 289.0)) * 289.0;
@@ -213,3 +213,5 @@ void main() {
   gl_Position = projectionMatrix * modelViewMatrix * vec4((position + normal) + displacement, 1.0);
 }
 `;
+
+export default sphereVertShader;
