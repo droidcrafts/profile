@@ -22,28 +22,40 @@
         "profiles": [
             {
                 "network": "Google",
-                "username": "contact@bishalpokhrel.com.np",
+                "username": "Gmail",
                 "url": "mailto:contact@bishalpokhrel.com.np",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "Facebook",
-                "username": "pokhrelbishal.bp",
+                "username": "Bishal Pokhrel",
                 "url": "https://www.facebook.com/pokhrelbishal.bp",
                 "x_icon": "fab fa-facebook"
             },
             {
                 "network": "YouTube",
-                "username": "MagiskZIP",
+                "username": "Magisk ZIP",
                 "url": "https://www.youtube.com/@magiskzip",
                 "x_icon": "fab fa-youtube"
             },
             {
+                "network": "LinkedIn",
+                "username": "Bishal Pokhrel",
+                "url": "https://www.linkedin.com/in/pokhrelbishal/",
+                "x_icon": "fab fa-linkedin"
+            },
+            {
+                "network": "X",
+                "username": "Bishal Pokhrel",
+                "url": "https://x.com/pokhrelbishalB",
+                "x_icon": "fab fa-x"
+            },
+            {
                 "network": "TikTok",
-                "username": "pokhrelbishal.bp",
+                "username": "Bishal Pokhrel",
                 "url": "https://www.tiktok.com/@pokhrelbishal.bp",
                 "x_icon": "fab fa-tiktok"
-            }
+            },
         ]
     },
     "work": [
