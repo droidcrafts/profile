@@ -6,6 +6,9 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <title>Bishal Pokhrel | Chitwan, Nepal</title>
+
+        <!-- Favicon -->
         <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -26,54 +29,91 @@
         <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="image/x-icon" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <meta name="theme-color" content="#00bfbf" />
-        <title>Bishal Pokhrel | Chitwan, Nepal</title>
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                "name": "Bishal Pokhrel",
-                "url": "https://bishalpokhrel.com.np",
-                "logo": "https://bishalpokhrel.com.np/jo.svg",
-                "email": "mailto:contact@bishalpokhrel.com.np"
-            }
-        </script>
+
+        <!-- SEO Meta Tags -->
         <meta name="author" content="Bishal Pokhrel" />
         <meta
             name="description"
             content="Hey, I'm Bishal Pokhrel, a Computer Science student based in Chitwan, Nepal. I love all things technical. Talk soon!"
         />
+        <meta name="keywords" content="bishal pokhrel, computer science, chitwan nepal" />
+
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:title" content="Bishal Pokhrel | Chitwan, Nepal" />
+        <meta property="og:site_name" content="Bishal Pokhrel" />
+        <meta property="og:url" content="https://bishalpokhrel.com.np" />
         <meta
-            name="keywords"
-            content="bishal pokhrel"
+            property="og:description"
+            content="Hey, I'm Bishal Pokhrel, a Computer Science student based in Chitwan, Nepal. I love all things technical. Talk soon!"
         />
         <meta property="og:image" content="%PUBLIC_URL%/social-image.jpeg" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="600" />
 
-        <meta property="og:title" content="Bishal Pokhrel | Chitwan, Nepal" />
-        <meta property="og:site_name" content="Bishal Pokhrel | Chitwan, Nepal" />
-        <meta property="og:url" content="https://bishalpokhrel.com.np" />
-        <meta
-            property="og:description"
-            content="Hey, I'm Bishal Pokhrel, a Computer Science student based in Chitwan, Nepal. I love all things technical. Talk soon!"
-        />
+        <!-- Structured Data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Bishal Pokhrel",
+                "url": "https://bishalpokhrel.com.np",
+                "image": "https://bishalpokhrel.com.np/jo.svg",
+                "email": "mailto:contact@bishalpokhrel.com.np",
+                "jobTitle": "Computer Science Student",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Chitwan",
+                    "addressRegion": "Bagmati",
+                    "postalCode": "44200",
+                    "addressCountry": "NP"
+                },
+                "sameAs": [
+                    "https://www.facebook.com/pokhrelbishal.bp",
+                    "https://x.com/pokhrelbishalB",
+                    "https://www.linkedin.com/in/pokhrelbishal",
+                    "https://www.tiktok.com/@pokhrelbishal.bp",
+                    "https://www.youtube.com/@magiskzip"
+                ]
+            }
+        </script>
+
+        <!-- Fonts -->
         <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@300;400;500;700&display=swap"
         />
+
+        <!-- Font Awesome -->
         <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700&display=swap"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-Tx8uI7B3q13c8k6O5Tz9EF+6bi3K5AE8qTwkT6OkeP6h5uXJ7b1WTG0uY0+9CF3b2g8u0vXWUI6N5T0dZ1j+Mw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css"
-        />
+
+        <!-- Material Icons -->
         <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
+
+        <!-- Inline Critical CSS (Optional for faster render) -->
+        <style>
+            body {
+                margin: 0;
+                font-family: "Roboto", Arial, sans-serif;
+                background-color: #f9f9f9;
+                color: #333;
+            }
+            #root {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+        </style>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
